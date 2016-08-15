@@ -8,6 +8,7 @@ This android app is part of Treehouse Beginners Android Dev track
 - ListActivity uses its standard ListAdapter that binds an array of Holes[18] tot he list view
 - The score of each hole is added to SharedPreferences during `onPause` method and retrieved from SharedPreferences during `onCreate` method
 - App also uses a main menu with just one menu item "Clear Score" that resets all scores to zero. See `menu_main.xml` file for xml layout for the menu
+
 ## SharedPreferences code
 
 ```java
